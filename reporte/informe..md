@@ -36,3 +36,33 @@ Archivo: src/palindrome_number.cpp
 Se recorren todos los pares posibles del arreglo usando dos ciclos anidados para encontrar dos números cuya suma sea igual al target.
 
 Archivo: src/two_sum.cpp
+
+---
+
+## LeetCode 121 — Best Time to Buy and Sell Stock
+
+Se recorre el arreglo una sola vez guardando el precio mínimo visto hasta el momento y calculando la posible ganancia diaria.  
+Se va actualizando la mejor ganancia encontrada.
+
+Archivo: src/best_time_buy.cpp
+
+---
+
+## LeetCode 171 — Excel Sheet Column Number
+
+Se interpreta el título de la columna como un número en base 26.  
+Cada letra se convierte en su valor correspondiente (A=1, ..., Z=26) y se acumula multiplicando el resultado previo por 26.
+
+
+Archivo: src/excel_column_number.cpp
+
+---
+
+## Calculadora con Callbacks
+
+Se implementan funciones para suma, resta, multiplicación y división.  
+Se utiliza un puntero a función (callback) para ejecutar dinámicamente la operación elegida.
+
+Con algunas excepciones como la división entre 0.
+
+Archivo: src/operacion_callbacks/operacion.cpp
