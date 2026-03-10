@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/SpaceAge.dir/corte2_e/ent1/SpaceAge.cpp.o -o SpaceAge 

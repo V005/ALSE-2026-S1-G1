@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/armstrong.dir/corte2_e/ent1/armstrong.cpp.o -o armstrong 

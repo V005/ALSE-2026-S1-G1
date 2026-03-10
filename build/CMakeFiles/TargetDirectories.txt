@@ -1,0 +1,6 @@
+/home/valentinad/mi_proyecto/build/CMakeFiles/armstrong.dir
+/home/valentinad/mi_proyecto/build/CMakeFiles/Hamming.dir
+/home/valentinad/mi_proyecto/build/CMakeFiles/parking.dir
+/home/valentinad/mi_proyecto/build/CMakeFiles/SpaceAge.dir
+/home/valentinad/mi_proyecto/build/CMakeFiles/edit_cache.dir
+/home/valentinad/mi_proyecto/build/CMakeFiles/rebuild_cache.dir
