@@ -1,0 +1,6 @@
+/home/valentinad/mi_proyecto/corte2_e/ent2/build_ent2/CMakeFiles/ejecutable_twitter.dir
+/home/valentinad/mi_proyecto/corte2_e/ent2/build_ent2/CMakeFiles/ejecutable_spreadsheet.dir
+/home/valentinad/mi_proyecto/corte2_e/ent2/build_ent2/CMakeFiles/ejecutable_robot.dir
+/home/valentinad/mi_proyecto/corte2_e/ent2/build_ent2/CMakeFiles/ejecutable_queens.dir
+/home/valentinad/mi_proyecto/corte2_e/ent2/build_ent2/CMakeFiles/edit_cache.dir
+/home/valentinad/mi_proyecto/corte2_e/ent2/build_ent2/CMakeFiles/rebuild_cache.dir

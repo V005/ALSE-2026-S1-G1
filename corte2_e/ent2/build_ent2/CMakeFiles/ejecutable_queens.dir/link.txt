@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ejecutable_queens.dir/queen_attack.cpp.o -o ejecutable_queens 

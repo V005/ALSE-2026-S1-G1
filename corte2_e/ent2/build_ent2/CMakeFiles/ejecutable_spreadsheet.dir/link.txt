@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ejecutable_spreadsheet.dir/spreadsheet.cpp.o -o ejecutable_spreadsheet 
