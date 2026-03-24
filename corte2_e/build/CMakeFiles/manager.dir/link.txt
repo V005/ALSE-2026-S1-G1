@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/manager.dir/ent3/manager.cpp.o -o manager 

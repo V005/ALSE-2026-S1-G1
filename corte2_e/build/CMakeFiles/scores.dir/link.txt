@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/scores.dir/ent3/scores.cpp.o -o scores 

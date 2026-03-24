@@ -1,0 +1,6 @@
+/home/valentinad/mi_proyecto/corte2_e/build/CMakeFiles/manager.dir
+/home/valentinad/mi_proyecto/corte2_e/build/CMakeFiles/scores.dir
+/home/valentinad/mi_proyecto/corte2_e/build/CMakeFiles/crypto.dir
+/home/valentinad/mi_proyecto/corte2_e/build/CMakeFiles/bank.dir
+/home/valentinad/mi_proyecto/corte2_e/build/CMakeFiles/edit_cache.dir
+/home/valentinad/mi_proyecto/corte2_e/build/CMakeFiles/rebuild_cache.dir

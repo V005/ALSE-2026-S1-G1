@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/bank.dir/ent3/bank.cpp.o -o bank 
