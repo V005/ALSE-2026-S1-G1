@@ -1,0 +1,34 @@
+{\bfseries{Estudiante\+:}} Valentina Delgado Arévalo\hypertarget{md_informe_entrega3_autotoc_md1}{}\doxysection{1. Introducción}\label{md_informe_entrega3_autotoc_md1}
+Presentar el desarrollo de cuatro retos de programación en C++ enfocados en la gestión de datos, seguridad en transacciones y optimización de algoritmos.\hypertarget{md_informe_entrega3_autotoc_md2}{}\doxysection{2. Metodología y Desarrollo}\label{md_informe_entrega3_autotoc_md2}
+Para la realización de esta entrega, organizar el proyecto en subdirectorios y utilizar {\bfseries{CMake}} como herramienta principal de automatización. Esto permitir generar los ejecutables de manera centralizada en una carpeta de construcción ({\ttfamily build}).\hypertarget{md_informe_entrega3_autotoc_md3}{}\doxysubsection{2.\+1. Gestión de Seguridad (\+Bank Account)}\label{md_informe_entrega3_autotoc_md3}
+
+\begin{DoxyItemize}
+\item {\bfseries{Implementar}} el uso de {\ttfamily std\+::thread} para simular múltiples depósitos simultáneos.
+\item {\bfseries{Utilizar}} {\ttfamily std\+::mutex} para bloquear el acceso al saldo, evitando que los hilos choquen y generen errores en el cálculo final.
+\end{DoxyItemize}\hypertarget{md_informe_entrega3_autotoc_md4}{}\doxysubsection{2.\+2. Optimización de Consultas (\+Exam Tracker)}\label{md_informe_entrega3_autotoc_md4}
+
+\begin{DoxyItemize}
+\item {\bfseries{Aplicar}} la técnica de {\bfseries{Sumas Prefijas}}.
+\item {\bfseries{Calcular}} el acumulado de puntajes una sola vez para permitir que cualquier consulta de rango se resuelva con una simple resta, mejorando la velocidad del programa.
+\end{DoxyItemize}\hypertarget{md_informe_entrega3_autotoc_md5}{}\doxysubsection{2.\+3. Cifrado de Mensajes (\+Square Code)}\label{md_informe_entrega3_autotoc_md5}
+
+\begin{DoxyItemize}
+\item {\bfseries{Eliminar}} espacios en blanco del texto original.
+\item {\bfseries{Distribuir}} los caracteres en una matriz cuadrada y leer por columnas para generar el código secreto.
+\end{DoxyItemize}\hypertarget{md_informe_entrega3_autotoc_md6}{}\doxysubsection{2.\+4. Control de Acceso (\+Token Manager)}\label{md_informe_entrega3_autotoc_md6}
+
+\begin{DoxyItemize}
+\item {\bfseries{Almacenar}} usuarios y tiempos de expiración en un {\ttfamily std\+::map}.
+\item {\bfseries{Validar}} si un token sigue activo comparando el tiempo de ingreso con el tiempo de expiración guardado.
+\end{DoxyItemize}\hypertarget{md_informe_entrega3_autotoc_md7}{}\doxysection{3. Dificultades Encontradas}\label{md_informe_entrega3_autotoc_md7}
+
+\begin{DoxyItemize}
+\item {\bfseries{Configuración de CMake\+:}} Ajustar el enlace de la librería de hilos ({\ttfamily pthread}) en el entorno Linux de WSL para que el programa del banco compilara correctamente.
+\item {\bfseries{Persistencia de archivos\+:}} Manejar errores de rutas al mover carpetas dentro del entorno de trabajo, lo cual se solucionó verificando la estructura de directorios en el terminal.
+\end{DoxyItemize}\hypertarget{md_informe_entrega3_autotoc_md8}{}\doxysection{4. Evidencias de Ejecución}\label{md_informe_entrega3_autotoc_md8}
+Al finall del documento\hypertarget{md_informe_entrega3_autotoc_md9}{}\doxysection{5. Conclusiones}\label{md_informe_entrega3_autotoc_md9}
+
+\begin{DoxyItemize}
+\item Lograr la integración de múltiples módulos bajo un mismo sistema de compilación.
+\item Comprender la importancia de proteger regiones críticas del código cuando se trabaja con programación concurrente. 
+\end{DoxyItemize}
