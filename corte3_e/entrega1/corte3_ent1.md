@@ -3,7 +3,7 @@
 
 * Valentina Delgado Arévalo
 
-**Repositorio GitHub:** [Pega aquí el enlace a tu repo público]
+**Repositorio GitHub:** https://github.com/V005/ALSE-2026-S1-G1/tree/main/corte3_e/entrega1
 
 ---
 
